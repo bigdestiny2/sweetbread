@@ -1,0 +1,22 @@
+
+{
+    "initiators": [
+      {
+            "type": "RunLog",
+            "params": { "address": "Bounty contract Address" }
+          }
+    ],
+    "tasks": [
+      {
+        "type": "HTTPPost",
+        "confirmations": 0,
+        "params": {"sendTransaction": "1",
+            "address": "",
+            "amount": "*"
+          }
+      },
+      { "type": "EthUint256" },
+      { "type": "EthTx" }
+    ]
+  }
+

@@ -1,0 +1,31 @@
+
+{
+    "initiators": [
+      {
+        "type": "Cron",
+        "params": {"minute": "59",
+            "hour": "23",
+            "dayOfMonth": "*",
+            "monthOfYear": "*",
+            "dayOfWeek": "7",
+            "startAt": "1477941966",
+            "endAt": "1793474734",
+            "runAt": ["1518726087", "1802722889"]
+          }
+      }
+    ],
+    "tasks": [
+      {
+        "type": "HTTPGet",
+        "confirmations": 0,
+        "params": { "get": "https://api.github.com/repos/bigdestiny2/linked-dapp/stats/contributors" }
+      },
+      {
+        "type": "JSONParse",
+        "params": { "weeks": [ "c" ] }
+      },
+      { "type": "EthUint256" },
+      { "type": "EthTx" }
+    ]
+  }
+

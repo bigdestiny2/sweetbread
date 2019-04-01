@@ -1,0 +1,18 @@
+    
+{
+    "name": "github-stats-adapter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "adapter.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bigdestiny2/linked-dapp"
+    },
+    "author": {
+      "name": "Duncan Campbell",
+      "url": "https://github.com/bigdestiny2"
+    },
+    "license": "MIT"
+}
+
+   
