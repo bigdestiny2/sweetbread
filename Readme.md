@@ -1,6 +1,6 @@
 Turtlecoin Contribution Reward Dapp (Sweetbread)
 
-This imcomplete repository contains the components to deploy a proof of concept
+This repository contains the components to deploy a proof of concept
 
 Instructions:
 1. Install all required dependencies (Chainlink node , Turtlecoin RPC wallet)
